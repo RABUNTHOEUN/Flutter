@@ -14,8 +14,10 @@ class HomePage extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             const DrawerHeader(
+              
               decoration: BoxDecoration(
                 color: Colors.blue,
+                
               ),
               child: Text("CST"),
               ),
@@ -54,9 +56,9 @@ class HomePage extends StatelessWidget {
       ),
 
       body: 
-      
-      const Text("data",style: TextStyle(fontSize: 20,),),
-    
+
+        const Text("Hello")      
+     
     );
   }
 }
